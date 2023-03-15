@@ -14,7 +14,7 @@ class CarDetails:
         self._car_brand = car_brand
         self._rating_review = rating_review
     
-class CarAvailable(CarDetails):
+class CarStat(CarDetails):
     def __init__(self, fuel_type, fuel_used, car_feature, car_door, car_insurance, car_seat, car_amount, car_description, car_photo, car_plate_number,date_avalible,car_available_status,car_status):
         super().__init__(fuel_type, fuel_used, car_feature, car_door, car_insurance, car_seat, car_amount, car_description, car_photo, car_plate_number)
         self.__date_avalible = date_avalible
